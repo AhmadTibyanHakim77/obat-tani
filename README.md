@@ -1,55 +1,125 @@
-# AgroNusa Store Enterprise
+# 🌱 AgroNusa Store
 
-AgroNusa Store Enterprise adalah platform marketplace agrikultur berbahasa Indonesia untuk obat pertanian, pupuk, benih, alat pertanian, konsultasi, edukasi, distributor, inventori, CRM, ERP-lite, analytics, dan rekomendasi AI.
+> Modern Agriculture E-Commerce Platform built with **Next.js**, **Laravel**, **TypeScript**, **Tailwind CSS**, and **MySQL**.
 
-## Struktur
+🌐 **Live Demo**  
+Coming Soon
+
+---
+
+## 📖 Overview
+
+AgroNusa Store is a modern agriculture e-commerce platform developed as a Full Stack Developer portfolio project. The application enables customers to browse agricultural products, manage shopping carts, complete online purchases, and access educational content related to farming.
+
+The platform also includes an administrative system for product management, inventory monitoring, analytics, and order processing.
+
+---
+
+## ✨ Features
+
+- Modern Landing Page
+- Product Catalog
+- Product Detail
+- Shopping Cart
+- Checkout System
+- User Authentication
+- Admin Dashboard
+- Inventory Management
+- Product Analytics
+- Educational Articles
+- Consultation Page
+- Responsive Design
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Next.js | Frontend Framework |
+| TypeScript | Programming Language |
+| Tailwind CSS | User Interface |
+| Laravel | Backend Framework |
+| MySQL | Database |
+| REST API | Communication |
+
+---
+
+## 📂 Project Structure
 
 ```text
-AgroNusaStore/
-  frontend/       Next.js, TypeScript, Tailwind CSS, Zustand-style store, service layer
-  backend/        Laravel-style REST API architecture
-  database/       SQL schema dan sample data lintas layanan
-  docker/         Nginx dan PHP runtime config
-  docs/           Panduan instalasi, deployment, testing, dan arsitektur
+AgroNusaStore
+├── backend
+├── frontend
+├── database
+├── docker
+├── docs
+├── LICENSE
+└── README.md
 ```
 
-## Quick Start Frontend
+---
+
+## 🚀 Installation
+
+Clone the repository
 
 ```bash
-cd AgroNusaStore/frontend
-npm install
-npm run dev
+git clone https://github.com/AhmadTibyanHakim77/obat-tani.git
 ```
 
-Frontend berjalan di `http://localhost:3000`.
-
-## Quick Start Docker
+Go to the project directory
 
 ```bash
 cd AgroNusaStore
-cp .env.example .env
-docker compose up --build
 ```
 
-## Akun Demo
+Install backend dependencies
 
-- Admin: `admin@agronusa.id`
-- Distributor: `distributor@agronusa.id`
-- Customer: `petani@agronusa.id`
-- Password demo: `password`
+```bash
+composer install
+```
 
-## Modul Utama
+Install frontend dependencies
 
-- Marketplace produk agrikultur
-- Keranjang dan checkout quotation
-- Manajemen distributor
-- Inventori dan stok gudang
-- CRM pelanggan
-- Konsultasi agronomi
-- Edukasi dan artikel
-- Analytics penjualan
-- API rekomendasi produk berbasis kondisi lahan
+```bash
+npm install
+```
 
-## Catatan Agent VS Code
+Run the frontend
 
-Saya tidak bisa mengganti provider agent VS Code secara langsung dari project folder. Jika kamu memakai ekstensi Claude resmi atau Continue/Cline, pilih provider Anthropic/Claude di pengaturan ekstensi VS Code. File `.github/copilot-instructions.md` dan `docs/AGENT.md` di project ini disiapkan agar agent apa pun mengikuti standar AgroNusa.
+```bash
+npm run dev
+```
+
+Run the Laravel backend
+
+```bash
+php artisan serve
+```
+
+---
+
+## 🌐 Live Demo
+
+Coming Soon
+
+---
+
+## 📸 Preview
+
+*Coming soon...*
+
+---
+
+## 👨‍💻 Developer
+
+**Ahmad Tibyan Hakim**
+
+GitHub: https://github.com/AhmadTibyanHakim77
+
+---
+
+## 📄 License
+
+This project was developed for educational purposes and portfolio demonstration.
