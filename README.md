@@ -3,31 +3,31 @@
 > Modern Agriculture E-Commerce Platform built with **Next.js**, **Laravel**, **TypeScript**, **Tailwind CSS**, and **MySQL**.
 
 🌐 **Live Demo**  
-Coming Soon
+https://obat-tani-ujio.vercel.app/
 
 ---
 
 ## 📖 Overview
 
-AgroNusa Store is a modern agriculture e-commerce platform developed as a Full Stack Developer portfolio project. The application enables customers to browse agricultural products, manage shopping carts, complete online purchases, and access educational content related to farming.
+AgroNusa Store is a modern agriculture e-commerce platform developed as a Full Stack Developer portfolio project. The application provides an intuitive shopping experience for agricultural products, educational content, agronomy consultation, and enterprise management features.
 
-The platform also includes an administrative system for product management, inventory monitoring, analytics, and order processing.
+The project demonstrates responsive web development, modern UI design, scalable architecture, and full stack integration using Next.js and Laravel.
 
 ---
 
 ## ✨ Features
 
 - Modern Landing Page
-- Product Catalog
+- Premium Product Catalog
 - Product Detail
 - Shopping Cart
 - Checkout System
 - User Authentication
 - Admin Dashboard
+- Enterprise Analytics
 - Inventory Management
-- Product Analytics
+- Agronomy Consultation
 - Educational Articles
-- Consultation Page
 - Responsive Design
 
 ---
@@ -38,10 +38,10 @@ The platform also includes an administrative system for product management, inve
 |------------|-------------|
 | Next.js | Frontend Framework |
 | TypeScript | Programming Language |
-| Tailwind CSS | User Interface |
+| Tailwind CSS | UI Framework |
 | Laravel | Backend Framework |
 | MySQL | Database |
-| REST API | Communication |
+| Zustand | State Management |
 
 ---
 
@@ -50,11 +50,15 @@ The platform also includes an administrative system for product management, inve
 ```text
 AgroNusaStore
 ├── backend
-├── frontend
 ├── database
 ├── docker
 ├── docs
-├── LICENSE
+├── frontend
+│   ├── app
+│   ├── components
+│   ├── store
+│   ├── services
+│   └── package.json
 └── README.md
 ```
 
@@ -68,47 +72,41 @@ Clone the repository
 git clone https://github.com/AhmadTibyanHakim77/obat-tani.git
 ```
 
-Go to the project directory
+Go to the frontend directory
 
 ```bash
-cd AgroNusaStore
+cd AgroNusaStore/frontend
 ```
 
-Install backend dependencies
-
-```bash
-composer install
-```
-
-Install frontend dependencies
+Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the frontend
+Run development server
 
 ```bash
 npm run dev
 ```
 
-Run the Laravel backend
+Open
 
-```bash
-php artisan serve
+```text
+http://localhost:3000
 ```
 
 ---
 
 ## 🌐 Live Demo
 
-Coming Soon
+https://obat-tani-ujio.vercel.app/
 
 ---
 
 ## 📸 Preview
 
-*Coming soon...*
+Visit the live demo to explore the latest version of AgroNusa Store.
 
 ---
 
