@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "AgroNusa: Dev Frontend",
+      "type": "shell",
+      "command": "C:\\Program Files\\nodejs\\npm.cmd",
+      "args": ["run", "dev"],
+      "options": {
+        "cwd": "${workspaceFolder}\\frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "nextjs",
+        "pattern": {
+          "regexp": "^(.*)$",
+          "message": 1
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*next dev.*",
+          "endsPattern": ".*Local:.*localhost:3000.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      }
+    },
+    {
+      "label": "AgroNusa: Build Frontend",
+      "type": "shell",
+      "command": "C:\\Program Files\\nodejs\\npm.cmd",
+      "args": ["run", "build"],
+      "options": {
+        "cwd": "${workspaceFolder}\\frontend"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    }
+  ]
+}

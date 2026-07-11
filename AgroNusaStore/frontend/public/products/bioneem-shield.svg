@@ -1,0 +1,13 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" fill="#F7F1DF"/>
+  <circle cx="680" cy="210" r="150" fill="#D8EACB"/>
+  <rect x="330" y="120" width="240" height="90" rx="28" fill="#123C2A"/>
+  <rect x="280" y="190" width="340" height="560" rx="58" fill="#2F7D4F"/>
+  <rect x="320" y="260" width="260" height="340" rx="32" fill="#FFFFFF"/>
+  <rect x="360" y="305" width="180" height="42" rx="21" fill="#C8A348"/>
+  <text x="450" y="405" text-anchor="middle" font-family="Arial" font-size="48" font-weight="800" fill="#123C2A">BioNeem</text>
+  <text x="450" y="462" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#2F7D4F">Shield 500ml</text>
+  <text x="450" y="535" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#7A5635">INSEKTISIDA NABATI</text>
+  <path d="M395 635C430 585 493 585 525 635C489 660 431 660 395 635Z" fill="#123C2A"/>
+  <path d="M450 635C450 610 450 585 450 560" stroke="#123C2A" stroke-width="10" stroke-linecap="round"/>
+</svg>

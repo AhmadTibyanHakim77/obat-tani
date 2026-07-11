@@ -1,0 +1,23 @@
+{
+  "name": "agronusa/store-backend",
+  "description": "Laravel-style REST API for AgroNusa Store Enterprise",
+  "type": "project",
+  "require": {
+    "php": "^8.3",
+    "laravel/framework": "^11.0",
+    "tymon/jwt-auth": "^2.2"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.24",
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "serve": "php artisan serve --host=0.0.0.0 --port=8000",
+    "test": "php artisan test"
+  }
+}
